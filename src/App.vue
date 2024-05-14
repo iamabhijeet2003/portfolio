@@ -16,6 +16,3 @@ setTheme()
   </div>
 </template>
 
-<style scoped>
-
-</style>
