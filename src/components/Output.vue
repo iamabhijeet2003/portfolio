@@ -8,6 +8,8 @@ import { CommandEnum, commands as availableCommands } from '../utils/constants'
 import WhoAmI from './commands/WhoAmI.vue'
 import Themes from './commands/Themes.vue'
 import Pwd from './commands/Pwd.vue'
+import Clear from './commands/Clear.vue'
+import History from './commands/History.vue'
 const { cmdHistory } = storeToRefs(useTerminalStore())
 
 const isCmdRequiresArgs = (command: string) => {
