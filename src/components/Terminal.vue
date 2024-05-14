@@ -31,6 +31,7 @@ import { useTerminalStore } from '../store/TerminalStore';
 import { storeToRefs } from 'pinia';
 import TerminalUser from '../components/TerminalUser.vue'
 import { commands } from '../utils/constants'
+import Output from '../components/Output.vue'
 /**
  * Component Variables
  */
