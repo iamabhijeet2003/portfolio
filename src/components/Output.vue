@@ -6,6 +6,8 @@ import Welcome from './commands/Welcome.vue'
 import { storeToRefs } from 'pinia'
 import { CommandEnum, commands as availableCommands } from '../utils/constants'
 import WhoAmI from './commands/WhoAmI.vue'
+import Themes from './commands/Themes.vue'
+import Pwd from './commands/Pwd.vue'
 const { cmdHistory } = storeToRefs(useTerminalStore())
 
 const isCmdRequiresArgs = (command: string) => {
