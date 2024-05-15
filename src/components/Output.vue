@@ -11,7 +11,12 @@ import Pwd from './commands/Pwd.vue'
 import Clear from './commands/Clear.vue'
 import History from './commands/History.vue'
 const { cmdHistory } = storeToRefs(useTerminalStore())
-
+import Help from '@/components/commands/Help.vue'
+import Usage from '@/components/commands/Usage.vue'
+import Echo from './commands/Echo.vue'
+import SetName from './commands/SetName.vue'
+import CommandNotFound from './commands/CommandNotFound.vue'
+import Gui from './commands/Gui.vue'
 const isCmdRequiresArgs = (command: string) => {
   return availableCommands.filter((c) => c.requiresArgs).some((c) => c.name === command)
 }
