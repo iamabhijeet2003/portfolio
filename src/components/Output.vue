@@ -31,7 +31,7 @@ const commands = (cmd: string) => {
   const commandArray = cmd.split(' ')
   const command = first(commandArray)
 
-  if (commandArray.length > 1 && !isCmdRequiresArgs(command)) {
+  if (commandArray.length > 1 && isCmdRequiresArgs(command)) {
     return Usage
   }
 
