@@ -23,7 +23,7 @@ import Experience from './commands/Experience.vue'
 import Education from './commands/Education.vue'
 
   
-const isCmdRequiresArgs = (command: string) => {
+const isCmdRequiresArgs = (command: string | null | undefined) => {
   return availableCommands.filter((c) => c.requiresArgs).some((c) => c.name === command)
 }
 
@@ -31,7 +31,7 @@ const commands = (cmd: string) => {
   const commandArray = cmd.split(' ')
   const command = first(commandArray)
 
-  if (commandArray.length > 1 && isCmdRequiresArgs(command)) {
+  if (commandArray.length > 1 && !isCmdRequiresArgs(command)) {
     return Usage
   }
 
