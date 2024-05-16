@@ -3,7 +3,16 @@ import { Icon } from '@iconify/vue'
 
 const educations = [
   {
-   
+   {
+    name: 'placeholder',
+    description: 'placeholder',
+    stacks: [
+      {
+        name: 'stack1',
+        icon: 'uil:server-network'
+      },
+    ]
+  },
   }
 ]
 </script>
