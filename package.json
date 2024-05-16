@@ -19,6 +19,7 @@
     "@types/node": "^20.12.12",
     "@types/underscore": "^1.11.15",
     "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/tsconfig": "^0.4.0",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.26.0",
