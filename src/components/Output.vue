@@ -12,7 +12,7 @@ import Clear from './commands/Clear.vue'
 import History from './commands/History.vue'
 const { cmdHistory } = storeToRefs(useTerminalStore())
 import Help from '@/components/commands/Help.vue'
-import Usage from '@/components/commands/Usage.vue'
+//import Usage from '@/components/commands/Usage.vue'
 import Echo from './commands/Echo.vue'
 import SetName from './commands/SetName.vue'
 import CommandNotFound from './commands/CommandNotFound.vue'
@@ -23,9 +23,9 @@ import Experience from './commands/Experience.vue'
 import Education from './commands/Education.vue'
 
   
-const isCmdRequiresArgs = (command: string) => {
-  return availableCommands.filter((c) => c.requiresArgs).some((c) => c.name === command)
-}
+//const isCmdRequiresArgs = (command: string) => {
+  //return availableCommands.filter((c) => c.requiresArgs).some((c) => c.name === command)
+//}
 
 const commands = (cmd: string) => {
   const commandArray = cmd.split(' ')
