@@ -1,12 +1,12 @@
 <script setup lang="ts">
 const educations = [
   {
-    name: 'Placeholder',
-    description: 'Placeholder'
+    name: 'I.E.S. Jaume II El Just',
+    description: 'Higher Technician in Development of Web Applications | 2022 - 2024'
   },
   {
-    name: 'Placeholder',
-    description: 'Placeholder'
+    name: 'I.E.S. Blasco Ibañez',
+    description: 'Higher studies in science | 2020 - 2022'
   }
 ]
 </script>
