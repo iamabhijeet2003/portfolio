@@ -3,7 +3,6 @@ import { Icon } from '@iconify/vue'
 
 const educations = [
   {
-   {
     name: 'placeholder',
     description: 'placeholder',
     stacks: [
@@ -13,7 +12,6 @@ const educations = [
       },
     ]
   },
-  }
 ]
 </script>
 
