@@ -31,9 +31,9 @@ const commands = (cmd: string) => {
   const commandArray = cmd.split(' ')
   const command = first(commandArray)
 
-  if (commandArray.length > 1 && !isCmdRequiresArgs(command)) {
-    return Usage
-  }
+  //if (commandArray.length > 1 && !isCmdRequiresArgs(command)) {
+    //return Usage
+  //}
 
   switch (command) {
     case CommandEnum.ABOUT:
