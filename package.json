@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": " \"build-only {@}\" --",
-    "build-only": "vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
