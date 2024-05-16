@@ -94,7 +94,56 @@ type ThemeColors = {
       background: '#300A24',
       accent: '#cbd5e1',
       muted: '#808080'
-    }
+    },
+    ocean: {
+      primary: '#1CA9C9',
+      secondary: '#F1E05A',
+      background: '#001F3F',
+      accent: '#39CCCC',
+      muted: '#7FDBFF',
+    },
+    forest: {
+      primary: '#228B22',
+      secondary: '#FFD700',
+      background: '#013220',
+      accent: '#32CD32',
+      muted: '#6B8E23',
+    },
+    sunset: {
+      primary: '#FF4500',
+      secondary: '#FFD700',
+      background: '#2C2C54',
+      accent: '#FF6347',
+      muted: '#FFA07A',
+    },
+    pastel: {
+      primary: '#e83a54',
+      secondary: '#f79843',
+      background: '#FFF0F5',
+      accent: '#4d4dfa',
+      muted: '#D3D3D3',
+    },
+    nord: {
+      primary: '#88C0D0',
+      secondary: '#81A1C1',
+      background: '#2E3440',
+      accent: '#5E81AC',
+      muted: '#4C566A',
+    },
+    grape: {
+      primary: '#d9b3f5',
+      secondary: '#DAA520',
+      background: '#4B0082',
+      accent: '#9370DB',
+      muted: '#8A2BE2',
+    },
+    monochrome: {
+      primary: '#FFFFFF',
+      secondary: '#CCCCCC',
+      background: '#000000',
+      accent: '#888888',
+      muted: '#555555',
+    },
   }
   
   export default themes
