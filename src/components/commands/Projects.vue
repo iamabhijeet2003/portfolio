@@ -3,9 +3,9 @@ import Links from '../Links.vue'
 
 const projects = [
   {
-    name: 'abhi-placeholder',
-    description: 'abhi-placeholder',
-    url: 'abhi-placeholder'
+    name: 'Portfolio Terminal',
+    description: 'A terminal emulator portfolio built with Vue.js, TypeScript and TailwindCSS',
+    url: 'https://github.com/iamabhijeet2003/portfolio'
   },
 ]
 </script>
