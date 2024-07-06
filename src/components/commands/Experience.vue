@@ -3,13 +3,71 @@ import { Icon } from '@iconify/vue'
 
 const educations = [
   {
-    name: 'placeholder',
-    description: 'placeholder',
+    name: 'Self-employed',
+    description: 'Ca Pablo | June 2022 - Present',
     stacks: [
       {
-        name: 'stack1',
-        icon: 'uil:server-network'
+        name: '',
+        icon: 'material-symbols-light:store'
       },
+    ]
+  },
+  {
+    name: 'Web Developer',
+    description: 'Gesdata Consulting | March 2024 - June 2024',
+    stacks: [
+      {
+        name: 'PHP',
+        icon: 'logos:php'
+      },
+      {
+        name: 'MySQL',
+        icon: 'logos:mysql'
+      },
+      {
+        name: 'Javascript',
+        icon: 'openmoji:javascript'
+      },
+      {
+        name: 'MAMP',
+        icon: 'simple-icons:mamp'
+      },
+      {
+        name: 'Bootstrap',
+        icon: 'devicon:bootstrap'
+      }
+    ]
+  },
+  {
+    name: 'Self-employed',
+    description: 'Restaurante Mar de Tapas | November 2023 - March 2024',
+    stacks: [
+      {
+        name: '',
+        icon: 'material-symbols-light:store'
+      },
+    ]
+  },
+  {
+    name: 'Owner | Self-employed',
+    description: 'Online Store | September 2022 - September 2023',
+    stacks: [
+      {
+        name: 'Shopify',
+        icon: 'logos:shopify'
+      },
+      {
+        name: 'Marketing',
+        icon: 'hugeicons:marketing'
+      },
+      {
+        name: 'Facebook Ads',
+        icon: 'ic:baseline-facebook'
+      },
+      {
+        name: 'TikTok Ads',
+        icon: 'ic:baseline-tiktok'
+      }
     ]
   },
 ]
